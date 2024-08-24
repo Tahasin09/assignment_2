@@ -55,7 +55,7 @@ class Member
     }
     public function returnBook($book)
     {
-        $book->borrowBook();
+        $book->returnBookBook();
     }
 }
 
